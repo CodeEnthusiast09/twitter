@@ -174,28 +174,28 @@ nav ul li {
   color: rgb(255, 255, 255, 0.4);
   font-size: 1.2rem;
 }
-.tweet hr{
+.tweet hr {
   color: rgb(255, 255, 255, 0.4);
 }
-.show-tweet{
+.show-tweet {
   text-align: center;
   color: var(--ButtonColor);
   margin-top: 15px;
   font-weight: 700;
 }
-.tweet1{
+.tweet1 {
   background-color: rgba(55, 55, 55, 0.6);
   margin-top: 10px;
   border-radius: 20px;
 }
-.tweet1 img{
+.tweet1 img {
   width: 30px;
   height: 30px;
 }
-.username{
+.username {
   display: flex;
   flex-direction: row;
-padding: 15px;
+  padding: 15px;
 }
 .upload {
   width: 20px;
