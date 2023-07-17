@@ -101,7 +101,7 @@ body {
 }
 .home-container {
   max-width: 900px;
-  max-height: 630px;
+  max-height: 680px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
 }
@@ -115,7 +115,7 @@ nav ul li {
   list-style-type: none;
   display: inline;
   margin: 0 40px 0 0;
-  color: rgb(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
 }
 .head {
   padding-bottom: 10px;
@@ -131,7 +131,7 @@ nav ul li {
   padding-bottom: 10px;
 }
 .tweet {
-  height: 155px;
+  height: 145px;
   margin-top: 20px;
   border-radius: 20px;
   background-color: rgba(55, 55, 55, 0.6);
@@ -180,13 +180,14 @@ nav ul li {
 .show-tweet {
   text-align: center;
   color: var(--ButtonColor);
-  margin-top: 15px;
+  margin-top: 8px;
   font-weight: 700;
 }
 .tweet1 {
   background-color: rgba(55, 55, 55, 0.6);
   margin-top: 10px;
   border-radius: 20px;
+  height: 120px;
 }
 .tweet1 img {
   width: 30px;
@@ -196,6 +197,46 @@ nav ul li {
   display: flex;
   flex-direction: row;
   padding: 15px;
+}
+.username h6 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-left: 8px;
+}
+.username p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  font-weight: 800;
+  position: relative;
+  top: 4px;
+}
+.dots {
+  position: relative;
+  left: 40%;
+  top: 3px;
+}
+.tweetcontent {
+  margin-left: 54px;
+  position: relative;
+  top: -20px;
+}
+.tweetcontent p {
+  font-size: 0.9rem;
+}
+.tweetcontent-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 71px;
+  margin-top: 18px;
+}
+.retweet {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+.upload-btn {
+  position: relative;
+  top: -5px;
 }
 .upload {
   width: 20px;
