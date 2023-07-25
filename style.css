@@ -329,10 +329,15 @@ nav ul li {
   max-height: 430px;
   border-radius: 20px;
   padding: 10px;
+  margin-bottom: 20px;
 }
 .suggestion h4 {
   font-size: 1.1rem;
   margin-bottom: 17px;
+}
+.show-more {
+  font-weight: 800;
+  color: #4fa9fd;
 }
 .account img {
   width: 45px;
@@ -368,4 +373,44 @@ nav ul li {
   font-size: 0.85rem;
   position: relative;
   top: -15px;
+}
+.message {
+  background-color: rgba(55, 55, 55, 0.3);
+  height: 136px;
+  border-radius: 20px 20px 0 0;
+  padding: 10px;
+}
+.msg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  top: -13px;
+  right: 20px;
+}
+.request {
+  display: flex;
+  justify-content: space-between;
+}
+.msg-noti .fas {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  padding: 15px;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+.request-msg {
+  position: relative;
+  top: 3px;
+  right: 37%;
+}
+
+.request2{
+color: rgba(255, 255, 255, 0.4);
+font-size: 0.75rem;
 }
