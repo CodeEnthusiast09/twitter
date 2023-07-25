@@ -11,19 +11,15 @@ html {
 body {
   color: #fff;
   font-family: "Inter", sans-serif;
-}
-.bg-image-container {
   background-image: url("/images/bg-image.jpg");
-  background-repeat: no-repeat;
-  object-fit: cover;
 }
 .container {
-  width: 80%;
+  width: 85%;
   height: 50%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 50px;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 .tabs {
   display: flex;
@@ -31,7 +27,7 @@ body {
 }
 .tabs-icon {
   width: 60px;
-  height: 545px;
+  max-height: 745px;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 29px;
 }
@@ -99,11 +95,18 @@ body {
   position: relative;
   left: 16px;
 }
+.tab-image {
+  width: 40px;
+  height: 40px;
+  margin: 10px 0 20px 0;
+  position: relative;
+  left: 10px;
+}
 .home-container {
   max-width: 900px;
-  max-height: 680px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
+  height: 688px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
 }
 .home {
   padding: 20px;
@@ -115,11 +118,11 @@ nav ul li {
   list-style-type: none;
   display: inline;
   margin: 0 40px 0 0;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.6);
 }
 .head {
   padding-bottom: 10px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
 }
 .current {
   font-size: 1.2;
@@ -134,7 +137,7 @@ nav ul li {
   height: 145px;
   margin-top: 20px;
   border-radius: 20px;
-  background-color: rgba(55, 55, 55, 0.6);
+  background-color: rgba(55, 55, 55, 0.3);
 }
 .profile {
   padding: 15px;
@@ -171,11 +174,11 @@ nav ul li {
   border: none;
   border-radius: 30px;
   background-color: #4fa9fd;
-  color: rgb(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
 }
-.tweet hr {
-  color: rgb(255, 255, 255, 0.4);
+.line {
+  background-color: rgb(255, 255, 255, 0.4);
 }
 .show-tweet {
   text-align: center;
@@ -184,7 +187,7 @@ nav ul li {
   font-weight: 700;
 }
 .tweet1 {
-  background-color: rgba(55, 55, 55, 0.6);
+  background-color: rgba(55, 55, 55, 0.3);
   margin-top: 10px;
   border-radius: 20px;
   height: 120px;
@@ -202,18 +205,36 @@ nav ul li {
   font-size: 0.95rem;
   font-weight: 700;
   margin-left: 8px;
+  position: relative;
+  top: 3px;
+}
+#user1 {
+  position: relative;
+  top: 2px;
 }
 .username p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.85rem;
-  font-weight: 800;
   position: relative;
   top: 4px;
 }
-.dots {
+.dot1 {
   position: relative;
-  left: 40%;
+  left: 43%;
   top: 3px;
+  color: rgb(255, 255, 255, 0.4);
+}
+.dot2 {
+  position: relative;
+  left: 53%;
+  top: 3px;
+  color: rgb(255, 255, 255, 0.4);
+}
+.dot3 {
+  position: relative;
+  left: 61%;
+  top: 3px;
+  color: rgb(255, 255, 255, 0.4);
 }
 .tweetcontent {
   margin-left: 54px;
@@ -229,6 +250,18 @@ nav ul li {
   gap: 71px;
   margin-top: 18px;
 }
+.tweetcontent-icons .fas {
+  color: rgb(255, 255, 255, 0.4);
+}
+.tweetcontent-icons .far {
+  color: rgb(255, 255, 255, 0.4);
+}
+.verified {
+  width: 20px;
+  position: relative;
+  left: 1px;
+  top: -1px;
+}
 .retweet {
   position: relative;
   top: 1px;
@@ -241,6 +274,81 @@ nav ul li {
 .upload {
   width: 20px;
 }
-.verified {
-  width: 20px;
+
+.search-dm {
+  width: 370px;
+  height: 688px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+}
+.search-container {
+  padding: 20px;
+}
+#search {
+  width: 100%;
+  height: 45px;
+  padding: 0 35px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+::placeholder {
+  color: #fff;
+}
+.get-verified {
+  background-color: rgba(55, 55, 55, 0.3);
+  height: 130px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.get-verified h4 {
+  font-size: 1.1rem;
+  margin-bottom: 17px;
+}
+.get-verified p {
+  font-size: 0.95rem;
+  margin-bottom: 17px;
+}
+.get-verified button {
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+  padding: 5px;
+  color: #fff;
+  background-color: #4fa9fd;
+}
+
+.suggestion {
+  background-color: rgba(55, 55, 55, 0.3);
+  max-height: 430px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.suggestion h4 {
+  font-size: 1.1rem;
+  margin-bottom: 17px;
+}
+.account img {
+  width: 40px;
+  height: 40px;
+}
+.account {
+  display: flex;
+  gap: 10px;
+}
+.account button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  padding: auto;
+  color: #000;
+  background-color: #ffffff;
+}
+.account p{
+position: relative;
 }
