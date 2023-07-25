@@ -157,6 +157,7 @@ nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 .tweet-icons {
   display: flex;
@@ -290,6 +291,7 @@ nav ul li {
   padding: 0 35px;
   border: none;
   border-radius: 30px;
+  background-image: url("/images/search.png");
   background-color: rgb(255, 255, 255, 0.4);
   color: rgba(255, 255, 255);
   font-size: 1.2rem;
@@ -333,14 +335,14 @@ nav ul li {
   margin-bottom: 17px;
 }
 .account img {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
 }
 .account {
   display: flex;
   gap: 10px;
 }
-.account button{
+.account button {
   width: 100px;
   height: 30px;
   border: none;
@@ -349,6 +351,21 @@ nav ul li {
   color: #000;
   background-color: #ffffff;
 }
-.account p{
-position: relative;
+.acc1 button {
+  position: relative;
+  left: 10%;
+}
+.acc2 button {
+  position: relative;
+  left: 17%;
+}
+.acc3 button {
+  position: relative;
+  left: 17%;
+}
+.text p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+  position: relative;
+  top: -15px;
 }
