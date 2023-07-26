@@ -11,7 +11,7 @@ html {
 body {
   color: #fff;
   font-family: "Inter", sans-serif;
-  background-image: url("/images/bg-image.jpg");
+  background-image: url("images/bg-image.jpg");
 }
 .container {
   width: 85%;
