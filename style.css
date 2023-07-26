@@ -303,7 +303,7 @@ nav ul li {
   /* padding: 0 35px; */
   border: none;
   border-radius: 30px;
-  background-image: url("/images/search.png");
+  background-image: url("images/search.png");
   background-position: -9px -9px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
